@@ -20,3 +20,29 @@
   {{ content }}
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="{{ page.keywords }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .products { display: flex; flex-wrap: wrap; gap: 20px; }
+    .product { border: 1px solid #ddd; padding: 10px; width: 220px; text-align: center; }
+    h1 { color: #333; }
+  </style>
+</head>
+<body>
+
+  {{ content }}
+
+  <footer style="margin-top: 40px; padding: 20px; background-color: #f9f9f9; text-align: center; font-size: 14px; color: #666;">
+    <p>This site is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn fees by linking to Amazon.com and affiliated sites.</p>
+    <p>We are tech enthusiasts sharing the best electronics deals online. Our recommendations are unbiased and based on popularity, ratings, and trends.</p>
+  </footer>
+
+</body>
+</html>
